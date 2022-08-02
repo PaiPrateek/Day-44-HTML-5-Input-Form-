@@ -45,6 +45,16 @@ error-output{
     font-style: italic;
     color: red;
 }
-@media screen {
-    min-width: 320px;
+
+@media only screen and (max-width: 360px){
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    label {
+        width: 40%;
+        font-size: 14px;
+
+    }
 }
